@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    font-family: "Vesper Libre", serif;
+}
+
+header h1 {    
+    font-family: "Whisper", cursive;
+    font-size: 50px;
+}
+
+header {
+    background-color: #520c30;
+}
+
+header{
+    padding: 16px 0;
+    color: aliceblue;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: #520c30;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+section img {
+    margin-right: 32px;
+}
+
+.brands-list img {
+    height: 50px;
+    margin-right: 6px;
+}
+
+.brands-list li {
+    display: inline;
+}
+
+.logo-violao img {
+    height: 300px;
+}
+
+.instrumento img {
+    height: 300px;
+}
+
+.mus-infantil img {
+    height: 400px;
+}
+
+#sobre-nos {
+    background-color: #1c998072
+}
+
+#sobre-nos p {
+    color: #520c30;
+}
+
+#nossos-cursos {
+    background-color:  #f0ddbd;
+}
+
+#nossos-cursos p {
+    color: #520c30;
+}
+
+.social-links img {
+    height: 24px;
+    margin-right: 4px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.redes-sociais {
+    color: #fff}
+
+.venha-ate-nos {
+    color: #fff;
+}
+
+#contact {
+    background-color: #851e25;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #ba3622;
+    color: #fff;
+    border: none;
+}
+
+form button:hover {
+    background-color: #520c30;
+}
+
+input:focus, textarea:focus {
+    outline-color: #520c30;
+}
+
+footer {
+    background-color: #520c30cf;
+    color: #fff;
+    padding: 16px 0;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+#contact h2 {
+    color: #fff;
+}
